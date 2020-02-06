@@ -105,11 +105,6 @@ public class DepartmentFormController implements Initializable {
 		return obj;
 	}
 
-	private ValidationException ValidationException(String string) {
-		
-		return null;
-	}
-
 	@FXML
 	public void onBtCancelAction(ActionEvent event) {
 		Utils.currentStage(event).close();
